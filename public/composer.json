@@ -1,4 +1,19 @@
 {
+    "authors": [
+        {
+            "name": "Matt Trask",
+            "role": "Developer"
+        },
+        {
+            "name": "Dave Lowther",
+            "email": "dave@davelowther.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Macdonny Saintil",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "slim/slim": "~2.6",
         "monolog/monolog": "~1.14",

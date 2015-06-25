@@ -1,0 +1,28 @@
+{
+    "authors": [
+        {
+            "name": "Matt Trask",
+            "role": "Developer"
+        },
+        {
+            "name": "Dave Lowther",
+            "email": "dave@davelowther.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Macdonny Saintil",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "slim/slim": "~2.6",
+        "monolog/monolog": "~1.14",
+        "twig/twig": "~1.18",
+        "slim/views": "0.1.*",
+        "swiftmailer/swiftmailer": "~5.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "~2.3",
+        "phpunit/phpunit": "~4.7"
+    }
+}

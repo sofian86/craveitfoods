@@ -1,15 +1,18 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
+//Sass Task
 gulp.task('styles', function(){
-	gulp.src('sass/**/*.scss')
-	.pipe(sass({
-		errLogToConsole: true
-	}))
-	.pipe(gulp.dest('./css/'));
+	gulp.src('/public/scss/*.scss')
+		.pipe(sass({
+			errLogToConsole: true
+		}))
+		.pipe(gulp.dest('/public/css/'))
+
 });
 
-//Watch task
-gulp.task('default',function() {
-    gulp.watch('sass/**/*.scss',['styles']);
+//watch task
+gulp.task('default', function(){
+	gulp.watch('/public/scss/*.scss', ['styles']);
 });
+

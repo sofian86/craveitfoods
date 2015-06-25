@@ -1,0 +1,28 @@
+<!DOCTYPE html5 lang="en">
+<html>
+	<head>
+		{% block head %}
+		<meta charset="utf-8">
+		<title>{% block title %}Crave It! Foods{% endblock title %}</title>
+		<meta name="description" content="">
+		<meta name="authors" content="See humans.txt">
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="/bower_components/materialize/dist/css/materialize.css">
+		<link rel="stylesheet" href="/bower_components/fontawesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/main.css">
+ 		<!-- JS Scripts -->
+ 		<script src="/bower_components/materialize/dist/js/materialize,js"></script>
+ 		<script src="/bower_components/modernizr/modernizr.js"></script>
+ 		<script src="/bower_components/jquer/dist/jquery.js"></script>
+		{% endblock head %}
+	</head>
+</html>
+<body>
+	<nav>
+	</nav>
+	<main class="main">
+    {% block content %}
+    {% endblock content %}
+  </main>
+  <footer></footer>
+</body>

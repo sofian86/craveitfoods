@@ -1,5 +1,28 @@
 {
+	"name": "Crave It Foods Order Form",
+	"authors": [
+		{
+            "name": "Matt Trask",
+			"email": "mjftrask@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Dave Lowther",
+            "email": "dave@davelowther.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Macdonny Saintil",
+            "role": "Developer"
+        }
+    ],
+
     "require": {
-        "slim/slim": "~2.6"
+        "monolog/monolog": "~1.13",
+        "slim/slim": "~2.6",
+        "twig/twig": "~1.18",
+        "slim/views": "0.1.*",
+		"phpunit/phpunit": "~4.7",
+		"swiftmailer/swiftmailer": "~5.4"
     }
 }
